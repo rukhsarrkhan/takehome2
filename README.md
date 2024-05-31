@@ -9,7 +9,7 @@ This app will be used by patients when they submit their information to get the 
 ## Requirements
 - This app should make use of [Material UI](https://mui.com/material-ui/getting-started/) for design and components.
 - Your code should be written in Javascript.
-- Use Redux to state management.
+- Use Redux for state management.
 
 ## Submission
 - Fork this github repository and check in your code.
