@@ -1,0 +1,9 @@
+{
+  "patients": [
+    { "id": "1", "firstName": "Carol", "lastName": "Danvers", "timeElapsed": 36, "condition": "Acne", "status": "New" },
+    { "id": "2", "firstName": "Steve", "lastName": "Rogers", "timeElapsed": 28, "condition": "Eczema", "status": "New" },
+    { "id": "3", "firstName": "Tony", "lastName": "Stark", "timeElapsed": 8, "condition": "Acne", "status": "Returning" },
+    { "id": "4", "firstName": "Thor", "lastName": "Odinson", "timeElapsed": 36, "condition": "Eczema", "status": "New" },
+    { "id": "5", "firstName": "Clint", "lastName": "Barton", "timeElapsed": 28, "condition": "Acne", "status": "New" }
+  ]
+}
