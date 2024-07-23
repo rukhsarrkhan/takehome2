@@ -4,7 +4,7 @@
 Create a react app and build a few screens as specified in a figma file which will be shared separately via email.
 
 ## Users
-This app will be used by patients when they submit their information to get the dermatologist's assessment.
+This app will be used by dermatologists when they review a patient's case.
 
 ## Requirements
 - This app should make use of [Material UI](https://mui.com/material-ui/getting-started/) for design and components.
@@ -20,7 +20,8 @@ This app will be used by patients when they submit their information to get the 
 ## Getting Started
  - Fork this repository and clone it to your local machine.
  - Run `npm install` to install all the dependencies.
- - Run `npm start` to start the app. 
+ - Run `npx json-server --watch db.json --port 3001` to start the json (db) server in separate terminal.
+ - Run `npm start` to start the app.
    - Runs the app in the development mode. 
    - Open [http://localhost:3000](http://localhost:3000) to view it in your browser. 
    - The page will reload when you make changes.
