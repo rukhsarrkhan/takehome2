@@ -15,14 +15,15 @@ This app will be used by dermatologists when they review a patient's case.
 - Fork this github repository and check in your code.
 - Create a new branch with your name and start working on the assignment.
 - Once you are done, push your changes to your forked repository and share the link with us.
-- Please include a screen recording of navigating between screens in your README file.
+- Please include a screen recording of the functionality in your README file.
 
 ## Getting Started
  - Fork this repository and clone it to your local machine.
  - Run `npm install` to install all the dependencies.
  - Run `npm run server` to start the json (db) server.
    - This will start the json server on port 3001.
-   - The endpoint to fetch the data is `http://localhost:3001/patients`. Try `curl http://localhost:3001/patients` to see the data.
+   - The endpoint to fetch the data is `http://localhost:3001/patients`. 
+     - Try `curl http://localhost:3001/patients` to see the data and get familiar with the structure.
  - Run `npm start` to start the app.
    - Runs the app in the development mode. 
    - Open [http://localhost:3000](http://localhost:3000) to view it in your browser. 
