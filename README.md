@@ -1,7 +1,7 @@
 # Take home assignment
 
 ## Goal
-Create a react app and build a few screens as specified in a figma file which will be shared separately via email.
+Create a react app and build one screen as specified in a figma file which will be shared separately via email.
 
 ## Users
 This app will be used by dermatologists when they review a patient's case.
@@ -20,7 +20,9 @@ This app will be used by dermatologists when they review a patient's case.
 ## Getting Started
  - Fork this repository and clone it to your local machine.
  - Run `npm install` to install all the dependencies.
- - Run `npx json-server --watch db.json --port 3001` to start the json (db) server in separate terminal.
+ - Run `npm run server` to start the json (db) server.
+   - This will start the json server on port 3001.
+   - The endpoint to fetch the data is `http://localhost:3001/patients`. Try `curl http://localhost:3001/patients` to see the data.
  - Run `npm start` to start the app.
    - Runs the app in the development mode. 
    - Open [http://localhost:3000](http://localhost:3000) to view it in your browser. 
