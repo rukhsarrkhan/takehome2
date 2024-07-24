@@ -1,9 +1,102 @@
 {
   "patients": [
-    { "id": "1", "firstName": "Carol", "lastName": "Danvers", "timeElapsed": 36, "condition": "Acne", "status": "New" },
-    { "id": "2", "firstName": "Steve", "lastName": "Rogers", "timeElapsed": 28, "condition": "Eczema", "status": "New" },
-    { "id": "3", "firstName": "Tony", "lastName": "Stark", "timeElapsed": 8, "condition": "Acne", "status": "Returning" },
-    { "id": "4", "firstName": "Thor", "lastName": "Odinson", "timeElapsed": 36, "condition": "Eczema", "status": "New" },
-    { "id": "5", "firstName": "Clint", "lastName": "Barton", "timeElapsed": 28, "condition": "Acne", "status": "New" }
+    {
+      "id": "1",
+      "firstName": "Carol",
+      "lastName": "Danvers",
+      "timeElapsed": 36,
+      "condition": "Acne",
+      "status": "New",
+      "dateOfBirth": "01-01-1999",
+      "allergies": "Penicillin",
+      "medications": "Dupixent",
+      "nextVisit": "2022-02-01",
+      "notes": "Patient has a history of smoking.",
+      "history": "History of acne since 5 years of age. Has consulted a PCP before."
+    },
+    {
+      "id": "2",
+      "firstName": "Steve",
+      "lastName": "Rogers",
+      "timeElapsed": 28,
+      "condition": "Eczema",
+      "status": "New",
+      "dateOfBirth": "10-23-1992",
+      "allergies": "Pollen",
+      "medications": "Ibuprofen",
+      "nextVisit": "2022-02-01",
+      "notes": "Patient has a history of asthma.",
+      "history": "History of eczema since 15 years of age."
+    },
+    {
+      "id": "3",
+      "firstName": "Natasha",
+      "lastName": "Romanoff",
+      "timeElapsed": 45,
+      "condition": "Psoriasis",
+      "status": "Follow-up",
+      "dateOfBirth": "11-22-1985",
+      "allergies": "Latex",
+      "medications": "Methotrexate",
+      "nextVisit": "2022-03-01",
+      "notes": "Patient follows a gluten-free diet.",
+      "history": "Diagnosed with psoriasis 10 years ago. Family history of psoriasis."
+    },
+    {
+      "id": "4",
+      "firstName": "Bruce",
+      "lastName": "Banner",
+      "timeElapsed": 22,
+      "condition": "Acne",
+      "status": "New",
+      "dateOfBirth": "12-18-1975",
+      "allergies": "Sulfa drugs",
+      "medications": "Doxycycline",
+      "nextVisit": "2022-02-15",
+      "notes": "Patient reports frequent alcohol consumption.",
+      "history": "Symptoms of acne started 2 years ago. No significant family history."
+    },
+    {
+      "id": "5",
+      "firstName": "Tony",
+      "lastName": "Stark",
+      "timeElapsed": 30,
+      "condition": "Melanoma",
+      "status": "Follow-up",
+      "dateOfBirth": "05-29-1970",
+      "allergies": "None",
+      "medications": "Nivolumab",
+      "nextVisit": "2022-03-10",
+      "notes": "Patient has a history of excessive sun exposure.",
+      "history": "Diagnosed with melanoma 1 year ago. Underwent surgery and immunotherapy."
+    },
+    {
+      "id": "6",
+      "firstName": "Wanda",
+      "lastName": "Maximoff",
+      "timeElapsed": 18,
+      "condition": "Melanoma",
+      "status": "New",
+      "dateOfBirth": "02-04-1993",
+      "allergies": "Peanuts",
+      "medications": "Topical corticosteroids",
+      "nextVisit": "2022-02-20",
+      "notes": "Patient reports high levels of stress.",
+      "history": "First noticed lesion 6 months ago. No family history of skin cancer."
+    },
+    {
+      "id": "7",
+      "firstName": "Peter",
+      "lastName": "Parker",
+      "timeElapsed": 15,
+      "condition": "Eczema",
+      "status": "New",
+      "dateOfBirth": "08-10-2001",
+      "allergies": "Nickel",
+      "medications": "Hydrocortisone cream",
+      "nextVisit": "2022-02-25",
+      "notes": "Patient uses protective gloves at work.",
+      "history": "Developed rash after using new detergent. No prior history of dermatitis."
+    }
   ]
 }
