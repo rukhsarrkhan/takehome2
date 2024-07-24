@@ -15,7 +15,7 @@ This app will be used by dermatologists when they review a patient's case.
 - Fork this github repository and check in your code.
 - Create a new branch with your name and start working on the assignment.
 - Once you are done, push your changes to your forked repository and share the link with us.
-- Please include a screen recording of navigating between screens in your README file.
+- Please include a screen recording of the functionality in your README file.
 
 ## Getting Started
  - Fork this repository and clone it to your local machine.
