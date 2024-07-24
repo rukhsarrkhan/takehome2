@@ -22,7 +22,8 @@ This app will be used by dermatologists when they review a patient's case.
  - Run `npm install` to install all the dependencies.
  - Run `npm run server` to start the json (db) server.
    - This will start the json server on port 3001.
-   - The endpoint to fetch the data is `http://localhost:3001/patients`. Try `curl http://localhost:3001/patients` to see the data.
+   - The endpoint to fetch the data is `http://localhost:3001/patients`. 
+     - Try `curl http://localhost:3001/patients` to see the data and get familiar with the structure.
  - Run `npm start` to start the app.
    - Runs the app in the development mode. 
    - Open [http://localhost:3000](http://localhost:3000) to view it in your browser. 
