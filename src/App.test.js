@@ -1,8 +1,11 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+jest.mock('./CustomRoutes', () => () => <div data-testid="custom-routes">Mocked Routes</div>);
+
+test('renders CustomRoutes', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  // You might need to add a testid to CustomRoutes component
+  const routesElement = screen.getByTestId('custom-routes');
+  expect(routesElement).toBeInTheDocument();
 });
