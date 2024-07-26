@@ -97,6 +97,48 @@
       "nextVisit": "2022-02-25",
       "notes": "Patient uses protective gloves at work.",
       "history": "Developed rash after using new detergent. No prior history of dermatitis."
+    },
+    {
+      "id": "8",
+      "firstName": "Black",
+      "lastName": "Panther",
+      "timeElapsed": 15,
+      "condition": "Eczema",
+      "status": "New",
+      "dateOfBirth": "08-10-1962",
+      "allergies": "Nickel",
+      "medications": "Hydrocortisone cream",
+      "nextVisit": "2022-02-25",
+      "notes": "Patient uses protective gloves at work.",
+      "history": "Developed rash after using new detergent. No prior history of dermatitis."
+    },
+    {
+      "id": "9",
+      "firstName": "Kamala",
+      "lastName": "Khan",
+      "timeElapsed": 20,
+      "condition": "Acne",
+      "status": "New",
+      "dateOfBirth": "08-10-2005",
+      "allergies": "None",
+      "medications": "Doxycycline",
+      "nextVisit": "2022-02-25",
+      "notes": "Patient reports frequent alcohol consumption.",
+      "history": "Symptoms of acne started 2 years ago. No significant family history."
+    },
+    {
+      "id": "10",
+      "firstName": "Nick",
+      "lastName": "Fury",
+      "timeElapsed": 9,
+      "condition": "Psoriasis",
+      "status": "Follow-up",
+      "dateOfBirth": "08-10-1950",
+      "allergies": "Nickel",
+      "medications": "Doxycycline",
+      "nextVisit": "2022-02-25",
+      "notes": "Patient follows a gluten-free diet.",
+      "history": "Diagnosed with psoriasis 10 years ago. Family history of psoriasis."
     }
   ]
 }

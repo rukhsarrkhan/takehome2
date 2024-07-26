@@ -12,22 +12,10 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import CustomDivider from "./CustomDivider";
-
+import { stringAvatar } from '../utils/avatarUtils';
 const pages = [{ title: 'My cases', link: '/cases' }];
 const settings = ['Logout'];
 
-function stringAvatar(name) {
-    const initials = name
-        ? `${name.split(' ')[0][0]}${name.split(' ')[1][0]}`
-        : '';
-    return {
-        sx: {
-            backgroundColor: '#D9D9D9',
-            color: '#484848',
-        },
-        children: initials,
-    };
-}
 
 export default function CustomAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
