@@ -52,6 +52,7 @@ export const generateSummary = (patient) => {
     return [
         { label: "Name", value: `${patient.firstName} ${patient.lastName}` },
         { label: "Age", value: `${age} years old` },
+        { label: "Sex", value: patient.sex },
         { label: "Condition", value: patient.condition },
         { label: "History", value: patient.history },
         { label: "Current medications", value: patient.medications },
