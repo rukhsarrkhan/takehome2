@@ -14,7 +14,6 @@ export const tableHeaderStyles = {
     fontFamily: 'Lato',
     textAlign: 'center',
     border: '1px solid #C4C4C4',
-    borderTop: 'none',
     width: '300px',
 };
 
