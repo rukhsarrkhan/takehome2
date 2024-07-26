@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { TableRow, TableCell, Button, Divider } from '@mui/material';
 import PatientNameDisplay from './PatientNameDisplay';
 import RiskFactorChips from './RiskFactorChips';
-import CaseSummaryModal from './CaseSummaryModal';
-import { identifyRiskFactors } from '../utils/patientUtils';
-import { styles } from '../styles/caseTableRowStyles';
+import CaseSummaryModal from '../CaseSummary/CaseSummaryModal';
+import { identifyRiskFactors } from '../../utils/patientUtils';
+import { styles } from '../../styles/caseTableRowStyles';
 
 const CaseTableRow = ({ patient, showDivider }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);

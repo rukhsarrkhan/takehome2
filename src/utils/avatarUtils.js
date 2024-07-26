@@ -1,3 +1,4 @@
+// Circle bubble with Name Initials
 export const stringAvatar = (name) => {
     const initials = name
         ? `${name.split(' ')[0][0]}${name.split(' ')[1][0]}`

@@ -1,14 +1,24 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { useDispatch, useSelector } from 'react-redux';
 import { FormControl, Select, MenuItem } from '@mui/material';
-import { formControlStyles, selectStyles } from '../styles/caseFilterStyles';
+import { formControlStyles, selectStyles } from '../../styles/caseFilterStyles';
+import { setFilterType } from '../../redux/actions/patientActions';
 
-const CaseFilter = ({ filterType, handleFilterTypeChange }) => {
+const CaseFilter = () => {
+    const dispatch = useDispatch();
+    const filterType = useSelector(state => {
+        return state.patients.filterType;
+    });
+
+    const handleFilterTypeChange = (event) => {
+        dispatch(setFilterType(event.target.value));
+    };
+
     return (
         <FormControl sx={formControlStyles}>
             <Select
                 labelId="filter-type-label"
-                value={filterType}
+                value={filterType || 'default'}
                 onChange={handleFilterTypeChange}
                 displayEmpty
                 sx={selectStyles}
@@ -18,11 +28,6 @@ const CaseFilter = ({ filterType, handleFilterTypeChange }) => {
             </Select>
         </FormControl>
     );
-};
-
-CaseFilter.propTypes = {
-    filterType: PropTypes.oneOf(['default', 'diagnosis']).isRequired,
-    handleFilterTypeChange: PropTypes.func.isRequired,
 };
 
 export default CaseFilter;

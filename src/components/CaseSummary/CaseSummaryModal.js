@@ -1,10 +1,10 @@
 import React from 'react';
 import { Modal, Paper, Button, Typography, Grid, Box } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-import { generateSummary } from '../utils/patientUtils';
-import { styles } from '../styles/caseSummaryModalStyles';
-import patientPlaceholder from '../assets/images/placeholders/profile-picture.jpg';
-import medicalScan1Placeholder from '../assets/images/placeholders/placeholder.svg';
+import { generateSummary } from '../../utils/patientUtils';
+import { styles } from '../../styles/caseSummaryModalStyles';
+import patientPlaceholder from '../../assets/images/placeholders/profile-picture.jpg';
+import medicalScan1Placeholder from '../../assets/images/placeholders/placeholder.svg';
 
 const CaseSummaryModal = ({ isOpen, onClose, patient }) => {
     const summary = generateSummary(patient);

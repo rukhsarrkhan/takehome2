@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Chip } from '@mui/material';
 import WarningIcon from '@mui/icons-material/Warning';
-import { getChipColor } from '../utils/chipUtils';
+import { getChipColor } from '../../utils/chipUtils';
 
 const RiskFactorChips = ({ riskFactors }) => (
     <Box>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Typography, Avatar } from '@mui/material';
-import { stringAvatar } from '../utils/avatarUtils';
-import { styles } from '../styles/patientNameDisplayStyles';
+import { stringAvatar } from '../../utils/avatarUtils';
+import { styles } from '../../styles/patientNameDisplayStyles';
 
 const PatientNameDisplay = ({ patient }) => (
     <Box sx={{ display: 'flex', alignItems: 'center', pl: 10 }}>

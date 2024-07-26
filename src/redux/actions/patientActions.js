@@ -3,6 +3,7 @@ import axios from 'axios';
 export const FETCH_PATIENTS_REQUEST = 'FETCH_PATIENTS_REQUEST';
 export const FETCH_PATIENTS_SUCCESS = 'FETCH_PATIENTS_SUCCESS';
 export const FETCH_PATIENTS_FAILURE = 'FETCH_PATIENTS_FAILURE';
+export const SET_FILTER_TYPE = 'SET_FILTER_TYPE';
 
 export const fetchPatients = () => {
     return (dispatch) => {
@@ -16,3 +17,8 @@ export const fetchPatients = () => {
             });
     };
 };
+
+export const setFilterType = (filterType) => ({
+    type: SET_FILTER_TYPE,
+    payload: filterType
+});

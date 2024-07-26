@@ -1,9 +1,10 @@
-import { FETCH_PATIENTS_REQUEST, FETCH_PATIENTS_SUCCESS, FETCH_PATIENTS_FAILURE } from '../actions/patientActions';
+import { FETCH_PATIENTS_REQUEST, FETCH_PATIENTS_SUCCESS, FETCH_PATIENTS_FAILURE, SET_FILTER_TYPE } from '../actions/patientActions';
 
 const initialState = {
     loading: false,
     list: [],
-    error: ''
+    error: '',
+    filterType: 'default'
 };
 
 const patientReducer = (state = initialState, action) => {
@@ -14,6 +15,8 @@ const patientReducer = (state = initialState, action) => {
             return { loading: false, list: action.payload, error: '' };
         case FETCH_PATIENTS_FAILURE:
             return { loading: false, list: [], error: action.payload };
+        case SET_FILTER_TYPE:
+            return { ...state, filterType: action.payload };
         default:
             return state;
     }
